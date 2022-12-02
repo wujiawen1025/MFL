@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wjw User, china, LIC=NQQMA-18DRE-VE5HA-1SFA9-9AMND-R5DKE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\Project_Keil\GD32F303_Boot.uvprojx
+Project File Date:  06/24/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build Project 'GD32F303_Boot' - Target 'GD32F30X_HD_Boot'
+assembling startup_gd32f30x_hd.s...
+compiling gd32f30x_adc.c...
+compiling gd32f30x_exti.c...
+compiling gd32f30x_fmc.c...
+compiling gd32f30x_fwdgt.c...
+compiling gd32f30x_gpio.c...
+compiling gd32f30x_misc.c...
+compiling gd32f30x_rcu.c...
+compiling gd32f30x_timer.c...
+compiling gd32f30x_usart.c...
+compiling gd32f30x_wwdgt.c...
+compiling system_gd32f30x.c...
+compiling bsp.c...
+compiling bsp_systicker.c...
+compiling bsp_uart.c...
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\BSP\bsp_drv\src\bsp_uart.c(225): warning:  #940-D: missing return statement at end of non-void function "BSP_UART_GetRxData" 
+  }
+..\SourceFile\BSP\bsp_drv\src\bsp_uart.c: 1 warning, 0 errors
+compiling bsp_gpio.c...
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(336): warning:  #177-D: variable "cc"  was declared but never referenced
+    static uint8_t cc;
+..\SourceFile\BSP\bsp_drv\src\bsp_gpio.c: 1 warning, 0 errors
+compiling bsp_watchdog.c...
+compiling bsp_flash.c...
+compiling bsp_feep.c...
+compiling ESF.c...
+compiling ESF_CPU.c...
+compiling ESF_Evt.c...
+compiling ESF_Mem.c...
+compiling ESF_Tmr.c...
+compiling CommonLib.c...
+compiling main.c...
+compiling System.c...
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\System.c(103): warning:  #177-D: variable "EvtTab"  was declared but never referenced
+  static const ESF_EvtTabItem_t EvtTab[ESF_EVT_MAX] = 
+..\SourceFile\UserApp\System.c: 1 warning, 0 errors
+compiling IAP.c...
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(292): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x01" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(326): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x02" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(415): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x03" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(506): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x04" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(562): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x05" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(582): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x10" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(607): warning:  #940-D: missing return statement at end of non-void function "IAP_CDPDataObj_0x20" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(180): warning:  #177-D: variable "pFlashUpdateOpInfo"  was declared but never referenced
+  static  IAP_FlashUpdateOpInfo_t  *pFlashUpdateOpInfo = (IAP_FlashUpdateOpInfo_t*)UPDATE_OP_INFO_START_ADDR;
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\IAP\src\IAP.c(183): warning:  #177-D: variable "pFileHeaderInfo"  was declared but never referenced
+  static  IAPFileHeaderInfo_t      *pFileHeaderInfo;
+..\SourceFile\UserApp\BootLoader\IAP\src\IAP.c: 9 warnings, 0 errors
+compiling CDP.c...
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\CDP\src\CDP.c(218): warning:  #940-D: missing return statement at end of non-void function "CDP_PDURxHandle" 
+  }
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\CDP\src\CDP.c(250): warning:  #940-D: missing return statement at end of non-void function "CDP_PDUTxHandle" 
+  }
+..\SourceFile\UserApp\BootLoader\CDP\src\CDP.c: 2 warnings, 0 errors
+compiling CDP_Xxx_Ctrl.c...
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\CDP\src\CDP_Xxx_Ctrl.c(39): warning:  #47-D: incompatible redefinition of macro "Xxx_CTRL_RX_BUF_SIZE"  (declared at line 13 of "..\SourceFile\UserApp\BootLoader\CDP\inc\SideBoard_806.h")
+  #define  Xxx_CTRL_RX_BUF_SIZE         (ESF_MEM_BOLCK_BYTE_SIZE - (ESF_MEM_BOLCK_BYTE_SIZE/4)) /*接收缓存大小，最多占内存块的3/4*/
+E:\wjw\project\GD\UART broad Code\EC6263B\EC6263B_UART_V1.0(源代码)\BootProject\SourceFile\UserApp\BootLoader\CDP\src\CDP_Xxx_Ctrl.c(137): warning:  #940-D: missing return statement at end of non-void function "CDP_XxxToCtrl_DataTx" 
+  }
+..\SourceFile\UserApp\BootLoader\CDP\src\CDP_Xxx_Ctrl.c: 2 warnings, 0 errors
+compiling SideBoard_806.c...
+linking...
+Program Size: Code=5356 RO-data=464 RW-data=184 ZI-data=5728  
+FromELF: creating hex file...
+After Build - User command #1: ".\..\..\烧写文件_带Boot\BatTools\mergeGD32F303_256K_KeilUser.bat"
+Parsing .\Obj_GD32F303_256K\Boot_GD32F303_256K.hex file.
+Parsing .\..\..\AppProject\Project_Keil\Obj_UseBoot\AppUseBoot.hex file.
+Merging files.
+Writing merged file.
+".\Obj_GD32F303_256K\Boot_GD32F303_256K.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                http://www.keil.com/pack/GigaDevice.GD32F10x_DFP.2.0.1.pack
+                GigaDevice.GD32F10x_DFP.2.0.1
+                GigaDevice GD32F10x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\wjw.wu\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:38
+</pre>
+</body>
+</html>

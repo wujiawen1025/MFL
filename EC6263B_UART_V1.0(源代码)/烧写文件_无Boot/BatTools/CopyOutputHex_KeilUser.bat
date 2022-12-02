@@ -1,0 +1,7 @@
+@echo off
+
+if exist .\Obj_NoBoot\AppNoBoot.Hex (copy .\Obj_NoBoot\AppNoBoot.Hex .\..\..\ÉÕÐ´ÎÄ¼þ_ÎÞBoot\)
+
+
+
+

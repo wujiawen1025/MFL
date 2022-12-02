@@ -1,0 +1,277 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Microsoft, Microsoft, LIC=3UURA-1L1SH-PHB89-4EMP3-4XUR4-ZHUS6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.32.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\Project_Keil\GD32F303_App.uvprojx
+Project File Date:  02/18/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build Project 'GD32F303_App' - Target 'GD32F30X_HD_UseBoot'
+Before Build - User command #1: ".\UpdateSystem.bat"
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\Project_Keil>echo off 
+assembling startup_gd32f30x_hd.s...
+compiling gd32f30x_adc.c...
+compiling gd32f30x_exti.c...
+compiling gd32f30x_fmc.c...
+compiling gd32f30x_fwdgt.c...
+compiling gd32f30x_gpio.c...
+compiling gd32f30x_misc.c...
+compiling gd32f30x_rcu.c...
+compiling gd32f30x_timer.c...
+compiling gd32f30x_usart.c...
+compiling gd32f30x_wwdgt.c...
+compiling system_gd32f30x.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c(151): warning:  #177-D: function "system_clock_config"  was declared but never referenced
+  static void system_clock_config(void)
+..\SourceFile\BSP\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c: 1 warning, 0 errors
+compiling ESF.c...
+compiling ESF_CPU.c...
+compiling ESF_Evt.c...
+compiling ESF_Mem.c...
+compiling ESF_Tmr.c...
+compiling CommonLib.c...
+compiling bsp.c...
+compiling bsp_systicker.c...
+compiling bsp_uart.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_uart.c(185): warning:  #940-D: missing return statement at end of non-void function "BSP_UART_GetRxData" 
+  }
+..\SourceFile\BSP\bsp_drv\src\bsp_uart.c: 1 warning, 0 errors
+compiling bsp_gpio.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(327): warning:  #188-D: enumerated type mixed with another type
+    POWER_5V_SWITCH(1);                                     /*开5V 电源开关*/
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(328): warning:  #188-D: enumerated type mixed with another type
+    POWER_24V_SWITCH(1);                                    /*开24V电源开关*/
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(420): warning:  #188-D: enumerated type mixed with another type
+    IO_OUTPUT_FEETSPIKE_DIRECTION( Direction );
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(463): warning:  #188-D: enumerated type mixed with another type
+    IO_OUTPUT_BACKSPIKE_DIRECTION( Direction );
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(515): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO1(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(516): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(517): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(518): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO2(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(528): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO1(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(529): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(530): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(531): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(541): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(542): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(543): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO2(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(544): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(554): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(555): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO1(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(556): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO2(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(557): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(567): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(568): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(569): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO2(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(570): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(580): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO1(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(581): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(582): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_HO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(583): warning:  #188-D: enumerated type mixed with another type
+          IO_OUTPUT_PUMP_LO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(597): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_PUMP_HO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(598): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_PUMP_LO1(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(599): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_PUMP_HO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(600): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_PUMP_LO2(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(625): warning:  #188-D: enumerated type mixed with another type
+    GAS_DRV8804_SCLK(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(626): warning:  #188-D: enumerated type mixed with another type
+    GAS_DRV8804_LATCH(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(630): warning:  #188-D: enumerated type mixed with another type
+      GAS_DRV8804_SCLK(0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(632): warning:  #188-D: enumerated type mixed with another type
+      GAS_DRV8804_SDATIN(BIT_GET(GasPart1, 7));
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(634): warning:  #188-D: enumerated type mixed with another type
+      GAS_DRV8804_SCLK(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(639): warning:  #188-D: enumerated type mixed with another type
+    GAS_DRV8804_LATCH(1);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(641): warning:  #188-D: enumerated type mixed with another type
+    GAS_DRV8804_LATCH(0); 
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(787): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_BACKSPIKE_RESET;
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(791): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_BACKSPIKE_NO_RESET;
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(808): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_FEETSPIKE_RESET;
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(812): warning:  #188-D: enumerated type mixed with another type
+      IO_OUTPUT_FEETSPIKE_NO_RESET;
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(860): warning:  #940-D: missing return statement at end of non-void function "BSP_IO_ReadInput_ZeroSpikePosition" 
+  }
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(1152): warning:  #1-D: last line of file ends without a newline
+  }
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_gpio.c(1103): warning:  #177-D: variable "cc"  was declared but never referenced
+    static uint8_t cc;
+..\SourceFile\BSP\bsp_drv\src\bsp_gpio.c: 46 warnings, 0 errors
+compiling bsp_pwmtmr.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_pwmtmr.c(73): warning:  #177-D: variable "timer_breakpara"  was declared but never referenced
+    timer_break_parameter_struct timer_breakpara;
+..\SourceFile\BSP\bsp_drv\src\bsp_pwmtmr.c: 1 warning, 0 errors
+compiling bsp_watchdog.c...
+compiling bsp_flash.c...
+compiling bsp_feep.c...
+compiling bsp_adc.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_adc.c(187): warning:  #188-D: enumerated type mixed with another type
+      gpio_bit_write(GPIOD, GPIO_PIN_15, 0);
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_adc.c(192): warning:  #188-D: enumerated type mixed with another type
+      gpio_bit_write(GPIOD, GPIO_PIN_15, 1);
+..\SourceFile\BSP\bsp_drv\src\bsp_adc.c: 2 warnings, 0 errors
+compiling bsp_exti.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\BSP\bsp_drv\src\bsp_exti.c(97): warning:  #1-D: last line of file ends without a newline
+  }
+..\SourceFile\BSP\bsp_drv\src\bsp_exti.c: 1 warning, 0 errors
+compiling main.c...
+compiling System.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(523): warning:  #1215-D: #warning directive: "下发软件时请在 UserApp/SaveData.c（如果有）文件的 SoftIdentifyInfo[] 数组修改软件版本信息"  
+  #warning  "下发软件时请在 UserApp/SaveData.c（如果有）文件的 SoftIdentifyInfo[] 数组修改软件版本信息"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(524): warning:  #1215-D: #warning directive: "如果使用BootLoader串口升级功能，请选择UseBoot工程，否则使用NoBoot工程"  
+  #warning  "如果使用BootLoader串口升级功能，请选择UseBoot工程，否则使用NoBoot工程"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(527): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(528): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(529): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(530): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(531): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(532): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(533): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(534): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(535): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\System.c(536): warning:  #1215-D: #warning directive: "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+  #warning  "系统调试开启中，下发软件时请将 SYSTEM_DEBUGING 定义为0"  
+..\SourceFile\UserApp\System.c: 12 warnings, 0 errors
+compiling SaveData.c...
+compiling RealTimeInspect.c...
+compiling SysMode.c...
+compiling SysMode_StandBy.c...
+compiling SysMode_UserRun.c...
+compiling SysMode_VenderForce.c...
+compiling SysMode_VenderInspectAuto.c...
+compiling SysMode_VenderInspectMannual.c...
+compiling SysMode_VenderInspectOther1.c...
+compiling SysMode_VenderInspectOther2.c...
+compiling SysMode_VenderPacking.c...
+compiling SysMode_VenderTestOther1.c...
+compiling SysMode_VenderTestSpike.c...
+compiling BodyScan.c...
+compiling FuncAuto_Core.c...
+compiling FuncAuto_CoreGas.c...
+compiling FuncAuto_CoreGasSpike.c...
+compiling FuncAuto_CoreSpike.c...
+compiling FuncAuto_Gas.c...
+compiling FuncAuto_GasSpike.c...
+compiling FuncAuto_GridCombo.c...
+compiling FuncAuto_Spike.c...
+compiling FuncLogic.c...
+compiling FuncMA_Heat.c...
+compiling FuncMA_Led.c...
+compiling FuncMA_Roller.c...
+compiling FuncMA_Vib.c...
+compiling FuncMannual_Core.c...
+compiling FuncMannual_Gas.c...
+compiling FuncMannual_Spike.c...
+compiling FuncTab.c...
+compiling FuncTabHandle.c...
+compiling CDP.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\MassageChair\CDP\src\CDP.c(175): warning:  #177-D: function "IAPCDPDataObjID"  was declared but never referenced
+  static uint16_t IAPCDPDataObjID(uint16_t index)
+..\SourceFile\UserApp\MassageChair\CDP\src\CDP.c: 1 warning, 0 errors
+compiling CDP_CenXxx.c...
+compiling CDP_CenApp.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\MassageChair\CDP\src\CDP_CenApp.c(707): warning:  #550-D: variable "SrcAddr"  was set but never used
+    uint8_t SrcAddr;
+..\SourceFile\UserApp\MassageChair\CDP\src\CDP_CenApp.c: 1 warning, 0 errors
+compiling CDP_CenServer.c...
+compiling Core.c...
+compiling Gas.c...
+compiling Heat.c...
+compiling LED.c...
+compiling Roller.c...
+compiling Vib.c...
+compiling BackSpike.c...
+compiling FeetSpike.c...
+compiling LegFlexSpike.c...
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\MassageChair\MChairComponent\Spike\src\LegFlexSpike.c(102): warning:  #177-D: variable "UIOCode"  was declared but never referenced
+    static uint8_t UIOCode;                       
+E:\xtx process since 20160301\GD\GD32F303\GD32F303芯片-LZH\新建文件夹\EC8606B_CEN_GD32\EC8606B_CEN_GD32\AppProject\SourceFile\UserApp\MassageChair\MChairComponent\Spike\src\LegFlexSpike.c(656): warning:  #177-D: variable "ULegActionHis"  was declared but never referenced
+    static uint8_t     ULegActionHis = 0xFF;                   /*历史动作状态*/
+..\SourceFile\UserApp\MassageChair\MChairComponent\Spike\src\LegFlexSpike.c: 2 warnings, 0 errors
+compiling Spike.c...
+compiling ZeroSpike.c...
+compiling MotorCommon.c...
+compiling Server.c...
+linking...
+Program Size: Code=73468 RO-data=30228 RW-data=492 ZI-data=5540  
+FromELF: creating hex file...
+After Build - User command #1: ".\..\..\烧写文件_带Boot\BatTools\axftobin_KeilUser.bat"
+".\Obj_NoBoot\NoBoot.axf" - 0 Error(s), 68 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                http://gd32mcu.com/data/documents/pack/GigaDevice.GD32F30x_DFP.2.0.0.pack
+                GigaDevice.GD32F30x_DFP.2.0.0
+                GigaDevice GD32F30x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\Keil_v5\ARM\PACK\GigaDevice\GD32F30x_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:50
+</pre>
+</body>
+</html>
